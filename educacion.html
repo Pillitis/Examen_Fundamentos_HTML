@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable:no">
+    <title>Evaluación Final Fundamentos HTML</title>
+  </head>
+    <body>
+      <header>
+        <img src="images/logo.svg" alt="Logo Evaluacion Final" title="Logo Evaluacción Final">
+          <h1>Curriculum Vitae</h1>
+          <h2>Santiago García Ramos</h2>
+          <h3> <em>14 Noviembre 1969, México, D.F.</em></h3>
+      </header>
+        <nav>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="educacion.html">Educación</a></li>
+            <li><a href="experiencia.html">Experiencia</a></li>
+          </ul>
+        </nav>
+      <section>
+        <h2>Educación</h2>
+            <table border="1">
+              <tr>
+                <th>Año</th>
+                <th>Institución</th>
+                <th>Lugar</th>
+                <th>¿Culminó?</th>
+              </tr>
+              <tr>
+                <td>1988-1991</td>
+                <td>Preparatoria</td>
+                <td>Ciudad de México</td>
+                <td>Si</td>
+              </tr>
+              <tr>
+                <td>1982-1985</td>
+                <td>Secundaria</td>
+                <td>Ciudad de México</td>
+                <td>Si</td>
+              </tr>
+              <tr>
+                <td>1976-1982</td>
+                <td>Primaria</td>
+                <td>Ciudad de México</td>
+                <td>Si</td>
+              </tr>
+            </table>
+      </section>
+      <section>
+          <h3>Agregar Estudios</h3>
+            <form autocomplete="on" name="Formulario de Agregar Estudios">
+              <label for="Año"><strong>Año</strong></label>
+                  <select id="Año">
+                    <option>2000</option>
+                    <option>1999</option>
+                    <option>1998</option>
+                    <option>1997</option>
+                    <option>1996</option>
+                    <option>1995</option>
+                    <option>1994</option>
+                    <option>1993</option>
+                  </select><br><br>
+              <label for="Institucion">Institución</label>
+                  <input type="text" name="Institucion" id="Institucion"> <br><br>
+              <label for="Lugar">Lugar</label>
+                  <textarea name="Lugar" rows="3" cols="30" id="Lugar"></textarea> <br><br>
+              <label for="Culmino">¿Culminó?</label>
+                  <input type="radio" name="culmino" value="Si" id="Culmino"> Si
+                  <input type="radio" name="culmino" value="No"> No <br><br>
+              <input type="submit">
+            </form>
+      </section>
+      <footer>
+        <h3>Derechos Reservados</h3>
+        <ul>
+          <li><strong>E-mail</strong> santiagogarciaramos@gmail.com</li>
+          <li><strong>Telefono</strong> 7774502449</li>
+          <li><strong>Dirección</strong> Limón 27, San Fco Texcalpan</li>
+        </ul>
+      </footer>
+    </body>
+</html>
